@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Mani Distributes</title>
+  <meta name="title" content="Adex">
+  <meta name="description" content="This is a Service agency which provides services related with Plumbing and electrical.">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/images/1.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/stock.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header >
+    <div class="container">
+
+      <a href="#home" class="logo" >
+        <img src="./assets/images/MANI DISTRIBUTES logo.png" width="50%" height="24" alt="Mani Distributes" class="logo-light">
+
+        <img src="./assets/images/MANI DISTRIBUTES.png" width="50%" height="24" alt="Mani Distributes" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <p class="h4 footer-list-title">Mani Distributes</p>
+            <!-- <img src="./assets/images/MANI DISTRIBUTES logo.png" width="74" height="24" alt="Mani Distributes"> -->
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <li>
+            <a href="mailto:manidistributes@gmail.com" class="footer-link">manidistributes@gmail.com</a>
+          </li>
+  
+          <li>
+            <a href="tel:+919443427247" class="footer-link">+91 9443427247 </a>
+            <a href="tel:+919842778900" class="footer-link">+91 9842778900 </a>
+            <a href="tel:+919842778901" class="footer-link">+91 9842778901 </a>
+          </li>
+        </div>
+
+        
+
+      </nav>
+
+      <!-- <a href="#" class="btn btn-primary">Free Trial</a> -->
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h2 hero-title">This is a Service agency which provides services related with Plumbing and electrical problems.</h1>
+
+            <p class="hero-text">
+              <!-- We’re a creative company that focuses on establishing long-term relationships with customers. -->
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#services" class="btn btn-primary">Services</a>
+
+              <a href="#contact" class="btn btn-outline">Contact Us</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/person.png" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/stock.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <!-- <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button> -->
+                  </div>
+
+                </li>
+
+                <!-- <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li> -->
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-labelledby="service-label" id="services">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">What We Do?</p>
+
+          <h2 class="h2 section-title">
+            This is a Service agency which provides services related with Plumbing and electrical problems.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="business-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Building Sloutions</h3>
+
+                <p class="card-text">
+                  Delivering reliable electrical and plumbing solutions for enhanced living spaces.
+                </p>
+
+                <!-- <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="hammer-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Hindware</h3>
+
+                <p class="card-text">
+                  Providing top-notch Hindware service for optimal home plumbing solutions.
+                </p>
+
+                <!-- <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="water-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Jaquar</h3>
+
+                <p class="card-text">
+                  Excellence in Jaquar plumbing and lighting services for enhanced living.
+                </p>
+
+                <!-- <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                   <ion-icon name="home" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Home Appliance </h3>
+
+                <p class="card-text">
+                  Delivering exceptional home appliance services for seamless living experiences.
+                </p>
+
+                <!-- <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a> -->
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+
+            <h2 class="h3 section-title">
+              Transforming Homes with Expert Plumbing and Electrical Solutions, Every Time!
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Experienced Professionals</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Certified, experienced plumbing and electrical experts for reliable solutions, ensuring quality service from knowledgeable professionals.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Transparent Pricing, Satisfaction Guarantee</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Honest upfront pricing, coupled with a satisfaction guarantee, demonstrates trustworthiness and commitment to ensuring customer contentment with our plumbing and electrical services.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5"> Emergency Response</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Prompt, around-the-clock availability for emergencies, providing peace of mind with timely solutions to urgent plumbing and electrical issues.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label" >
+        <div class="container" id="solutions">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+
+            <h2 class="h2 section-title">
+              Unleashing Excellence in Plumbing and Electrical Care, Your Trusted Solution!
+            </h2>
+
+            <p class="section-text">
+              Choose our dedicated services for unparalleled plumbing and electrical expertise. We transform challenges into opportunities, prioritizing innovation, reliability, and your trust, ensuring a seamless experience for every home we serve.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Electrical and Plumbing Solutions for Buildings.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Authorized Hindware Service Center.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Authorized Jaquar Service Center.
+                  </span>
+
+                </div>
+              </li> 
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" aria-label="our stats" >
+        <div class="container">
+
+          <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg.jpg')">
+
+            <li>
+              <p class="card-text">
+                <span class="h1">5000+</span>
+
+                <spna class="span">Happy Customers</spna>
+              </p>
+            </li>
+
+
+            <li>
+              <p class="card-text">
+                <span class="h1">2000+</span>
+
+                <spna class="span">Hindware Services</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">1000+</span>
+
+                <spna class="span">Jaquar Services</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">500+</span>
+
+                <spna class="span">Building Solutions</spna>
+              </p>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label" id="contact">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">Contact</p>
+
+          <h2 class="h2 section-title">
+            Get in Touch.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 106; --height: 60;">
+                  <!-- <img src="./assets/images/blog-1.jpg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover"> -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d244.2743192772814!2d78.5983474507436!3d11.595583319615663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1705482600857!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Mani Distributes</a>
+                  </h3>
+
+                  <p class="card-text">
+                    This is a Service agency which provides services related with Plumbing and electrical problems.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-04-14">9443427247, 9842778900</time>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+                  <div class="card-content" style="width:100%">
+                    <section class="contact" id="contact" style="width:100%">
+                        <div class="row" style="width:100%" >
+                            <div class="content" style="width:100%">
+                              <form action="send()" onsubmit="send(); reset(); return false">
+                                <input type="text" placeholder="Name" class="box" id="Name" > 
+                                <input type="text" placeholder="Mobile Number" class="box" id="Contact">
+                                <input type="email" placeholder="E-mail" class="box" id="Email">
+                                <input type="text" placeholder="Subject" class="box" id="Subject">
+                                <textarea name="msg" cols="30" rows="10" id="message" class="box message" placeholder="Message"></textarea>
+                                <button type="submit" class="btn1" >Send</button>
+                              </form>
+                              <script src="https://smtpjs.com/v3/smtp.js"></script>
+                            </div>
+                        </div>
+                    </section>
+                  </div>
+                </div>
+            </li>
+            <script>
+              function send(){
+                let name = document.getElementById("Name").value; 
+                let email = document.getElementById("Email").value;
+                let contact = document.getElementById("Contact").value;
+                let subject = document.getElementById("Subject").value; 
+                let message = document.getElementById("message").value;
+                Email.send({
+                    SecureToken : "759047e4-5d6e-4ba1-86c3-2eb3795d0476",
+                    To : "streshi17@gmail.com",
+                    From :"streshi17@gmail.com",
+                    Subject : "mail From Contact Form",
+                    Body : "name:" + name + "<br> Email:" + email + "<br/>Contact:" + contact + "<br/>Subject:" + subject + "<br/>message:" + message
+                }).then(
+                    message => alert(message)
+                    );
+          }
+            </script>
+            
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 106; --height: 60;">
+                  <img src="assets/images/2.png" alt="" style="width: 100%; height: 100%;">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Tamilmani S</a>
+                  </h3>
+
+                  <p class="card-text">
+                    MD of Mani Distributes, leads with excellence and dedication.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" >9443427247, 9842778901</time>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            
+            
+            
+          </ul>
+          
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <!-- <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Join our community by using our services and grow your business.
+          </h2>
+
+          <a href="#" class="btn btn-primary">Try it For Free</a>
+
+        </div>
+      </section> -->
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <li>
+            <p class="h2 footer-list-title">Mani Distributes</p>
+          </li>
+          <!-- <img src="./assets/images/MANI DISTRIBUTES logo.png" width="200" height="24" alt="Adex home"> -->
+        </a>
+
+        <p class="footer-text">
+          &copy; 2024 Reshi. <br> All rights reserved.
+        </p>
+
+        <!-- <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul> -->
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            82, Rajaji Colony, Near Lakshimi Supermart, Attur, Salem-636102
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:manidistributes@gmail.com" class="footer-link">manidistributes@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:+919443427247" class="footer-link">+91 9443427247 </a>
+          <a href="tel:+919842778900" class="footer-link">+91 9842778900 </a>
+          <!-- <a href="tel:+919842778901" class="footer-link">+91 9842778901 </a> -->
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#about" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#services" class="footer-link">Services</a>
+        </li>
+
+        <li>
+          <a href="#solutions" class="footer-link">Solutions</a>
+        </li>
+
+        <li>
+          <a href="#contact" class="footer-link">Contact</a>
+        </li>
+
+      </ul>
+
+      <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d244.2743192772814!2d78.5983474507436!3d11.595583319615663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1705482600857!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </div>
+      
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
